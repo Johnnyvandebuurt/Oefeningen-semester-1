@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class Fooditem {
+public class Fooditem {
+    String name;
+    int cookTime;
+    String foodType;
+    boolean isVegetarian;
 }

@@ -30,7 +30,6 @@ public class Child {
             System.out.println("uw ingegeven leeftijd is te oud/jong.");
         }
     }
-
     public static void main(String[] args) {
         Child child = new Child("Kjento de Backer", 36);
         System.out.println("Naam: " + child.getName());
@@ -40,7 +39,6 @@ public class Child {
         System.out.println("Nieuwe naam: " + child.getName());
         System.out.println("Nieuwe leeftijd: " + child.getAge());
     }
-
     public void celebrateBirthday() {
         age++;
         System.out.println("Proficiat!");
